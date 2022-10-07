@@ -1,0 +1,19 @@
+{
+    "name": "Site blocker",
+    "version" : "1.0",
+    "description" : "a new way to block sites" , 
+    "permissions" : [  "storage" ,"tabs", "activeTab" ,"webRequest" , "webRequestBlocking" , "<all_urls"],
+    "action": {"default_popup": "./popup.html"},
+    "host_permissions": ["<all_urls>"],
+    "background":
+    {
+        "script":["background.js"]
+    },
+
+    "icons" : 
+    {
+        "128": "img0001-modified-modified.png"
+    },
+    "manifest_version" : 3
+}
+

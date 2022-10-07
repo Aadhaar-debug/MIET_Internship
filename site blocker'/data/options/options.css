@@ -1,0 +1,262 @@
+body {
+  border: 0;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 10px;
+  font-size: 12px;
+  max-width: 1080px;
+  font-family: monospace;
+  box-sizing: border-box;
+}
+
+.content table {
+  border: 0;
+  width: 100%;
+  border-spacing: 0;
+}
+
+.content table tr td {
+  padding: 0;
+  height: 42px;
+  transition: 300ms ease all;
+}
+
+.content table tr td[type='number'] {
+  width: 38px;
+  color: #555;
+  font-size: 12px;
+  min-width: 38px;
+  max-width: 38px;
+  font-weight: 600;
+  text-align: center;
+  font-family: monospace;
+}
+
+.content table thead {
+  outline: solid 1px #e5e5e5;
+}
+
+.content table tbody tr td[type='number'],
+.content table tbody tr td[type='blocked'] {
+  border-right: solid 1px rgba(0,0,0,0.05);
+}
+
+.content table thead tr td {
+  color: #555;
+  user-select: none;
+  text-indent: 10px;
+}
+
+.content table thead tr td[type='number'] {
+  text-indent: 0;
+}
+
+.content table tbody tr td[type='close'] {
+  padding: 0;
+  width: 52px;
+  min-width: 52px;
+  border-left: solid 1px rgba(0,0,0,0.05);
+  background: url('icons/close-black.svg') no-repeat center center;
+  background-size: 8px;
+}
+
+.content table tbody tr td[type='close']:hover {
+  cursor: pointer;
+  background: #d86355 url('icons/close-white.svg') no-repeat center center;
+  background-size: 8px;
+}
+
+.content table tr td[type='blocked'] {
+  padding: 0;
+  font-size: 12px;
+  min-width: 200px;
+  max-width: 300px;
+}
+
+.content table tbody tr td[type='blocked'] {
+  font-weight: 600;
+  text-indent: 10px;
+  font-family: monospace;
+}
+
+.content table tr td[type='redirect'] {
+  padding: 0;
+  width: 100%;
+  max-width: 250px;
+}
+
+.content table tr td input[type='text'] {
+  border: 0;
+  margin: 0;
+  color: #555;
+  width: 100%;
+  height: 42px;
+  outline: none;
+  padding: 10px;
+  font-size: 12px;
+  min-width: 120px;
+  font-weight: 600;
+  font-family: monospace;
+  box-sizing: border-box;
+}
+
+.content .separator {
+  margin: 25px auto;
+  border-spacing: 0 1px;
+}
+
+.content .separator tr td {
+  height: 1px;
+  background: #e5e5e5;
+}
+
+.content .arrow tr td {
+  text-align: center;
+}
+
+.content .arrow tr td svg {
+  pointer-events: none;
+  vertical-align: middle;
+}
+
+.content .arrow .iframes svg {
+  fill: #3788dc;
+}
+
+.content .arrow .domains svg {
+  fill: #dc4837;
+}
+
+.content .options {
+  margin: 10px auto;
+  border-spacing: 0;
+  background-color: #fff;
+}
+
+.content .options.spacing {
+  border-spacing: 0 5px;
+}
+
+.content .options tbody tr {
+  outline: solid 1px rgba(0,0,0,0.1);
+}
+
+.content .options tr td input {
+  vertical-align: middle;
+}
+
+.content .checkbox {
+  width: 48px;
+  min-width: 48px;
+  max-width: 48px;
+  text-align: center;
+  border-left: solid 1px #e5e5e5;
+}
+
+.content .title {
+  width: 100%;
+  color: #555;
+  height: 42px;
+  padding: 0 10px;
+  user-select: none;
+}
+
+.content .header {
+  color: #555;
+  height: 42px;
+  margin: 10px auto;
+  background-color: rgba(0,0,0,0.1);
+}
+
+.content .item {
+  padding: 0 10px;
+  user-select: none;
+}
+
+.content .item.general {border-left: solid 5px #25a52f}
+.content .item.iframes {border-left: solid 5px #3788dc}
+.content .item.domains {border-left: solid 5px #dc4837}
+
+.content #blocklist-iframes tr td[type='blocked'] {color: #3788dc}
+.content #blocklist-domains tr td[type='blocked'] {color: #dc4837}
+
+.content #test, 
+.content #add-domain, 
+.content #add-iframe {
+  width: 52px;
+  height: 100%;
+  cursor: pointer;
+  text-align: center;
+  background-size: 10px;
+}
+
+.content #test {
+  border-left: solid 1px #fff;
+}
+
+.content #add-domain, 
+.content #add-iframe {
+  border-left: solid 1px #e5e5e5;
+}
+
+.content #test svg,
+.content #add-domain svg, #add-iframe svg,
+.content #add-domain svg, #add-iframe svg {
+  fill: #777;
+  pointer-events: none;
+  vertical-align: middle;
+}
+
+.content #test:hover,
+.content #add-domain:hover, #add-iframe:hover,
+.content #add-domain:hover, #add-iframe:hover {
+  background-color: rgba(0,0,0,0.1);
+}
+
+.toolbar {
+  top: 0;
+  right: 0;
+  z-index: 11;
+  width: 42px;
+  position: absolute;
+}
+
+.toolbar table {
+  width: 100%;
+  border-spacing: 0;
+  table-layout: fixed;
+}
+
+.toolbar table tr td {
+  padding: 0;
+  width: 100%;
+  color: #777;
+  height: 42px;
+  font-size: 12px;
+  cursor: pointer;
+  user-select: none;
+  text-align: center;
+  font-family: arial,sans-serif;
+}
+
+.toolbar table tr td:hover {
+  background-color: rgba(0,0,0,0.05);
+}
+
+.toolbar table tr td svg {
+  fill: #777;
+  pointer-events: none;
+  vertical-align: middle;
+}
+
+@media (max-width: 900px) {
+  body {
+    border: 0;
+    margin: auto;
+  }
+  .toolbar {
+    right: 0;
+    bottom: 0;
+    top: unset;
+  }
+}

@@ -1,0 +1,36 @@
+{
+   "action": {
+      "default_icon": {
+         "16": "data/icons/16.png",
+         "32": "data/icons/32.png",
+         "48": "data/icons/48.png",
+         "64": "data/icons/64.png"
+      },
+      "default_title": "Block Site"
+   },
+   "background": {
+      "service_worker": "background.js"
+   },
+   "description": "Easily block websites of your choice!",
+   "homepage_url": "https://mybrowseraddon.com/block-site.html",
+   "host_permissions": [ "*://*/*" ],
+   "icons": {
+      "128": "data/icons/128.png",
+      "16": "data/icons/16.png",
+      "32": "data/icons/32.png",
+      "48": "data/icons/48.png",
+      "64": "data/icons/64.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAoPSHfGJ34iM05xfJqA8suOA3/pBLNlTSpi5pXAeYrGa0n6FUVartyTuKPpejUR14Tle+CtOjB54Qr16axsQt8ufGFsdQ2gf2zWiugvhlTpk3BsAo254Mph1+3cGqtwzgkrFmYAm6vpS5z8SSN+gdDFd/e3CXOhlmTmUsxwuypCSadRZHKCGCbJSa4rU0KgpU4zOXcYKusSfEcriWt8e3t3o1u7gr+eXBmI97hM/FoUdP6lSLbcP/BjRd3Ibn4ApTECriBpyqqsyAVfWWlwyxRaHfsfX0XAWqWAJKU9reekffZag5UleUtQvQpjQOZDSCQdWWoMKPJejNAOttugphGQIDAQAB",
+   "manifest_version": 3,
+   "name": "Block Site",
+   "offline_enabled": true,
+   "options_ui": {
+      "open_in_tab": true,
+      "page": "data/options/options.html"
+   },
+   "permissions": [ "storage", "contextMenus", "declarativeNetRequest" ],
+   "short_name": "block-site",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.2.1"
+}
