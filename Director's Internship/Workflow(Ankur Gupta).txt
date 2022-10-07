@@ -1,0 +1,35 @@
+Aadhaar,
+
+Here is the project workflow:
+
+1. Use a Chrome Extension to trap url requests
+
+2. Check for malformed url's
+
+3. Check against known bad databases (example https://zeltser.com/malicious-ip-blocklists/)
+
+4. Check against good url's of banks, online payment gateways to prevent payment frauds
+
+
+Second Phase:
+1. Create a secure VM (sandbox) on the host computer or on a cloud
+
+2. Download everything on to the VM and let it run
+
+3. Observe the environment to check for ransomware etc.
+
+4. If OK download to host computer
+
+Third Phase:
+1. Use AI and RPA to make it smart
+
+Possible outcomes from the project:
+1. Paper
+2. Working Prototype
+3. Pitch to DRDO for funding
+4. Possible Patents etc. 
+5. Pitch to armed forces/govt. to use
+6. Raise funding and incubate startup
+
+All the best
+Ankur
