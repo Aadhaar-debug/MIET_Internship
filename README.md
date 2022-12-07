@@ -17,9 +17,8 @@ KAVACH IS A SMART ARTIFICIAL INTELLIGTH AGENT THAT RESTRICTS THE MALICIOUS USER 
 - SAFETY FROM THE MALICIOUS LINKS AND THE MALFORMD URL LIKE PHISHING LINKS AND THE   DARK WEB PORTALS BY MAINTAINING A WHITELIST AND A BLACKLIST.
 - FEDERATED LEARNING MODEL THAT MAKE A VIRTUAL IMAGE OF THE INSIDENT SENARIO AND IT   THE MASTER FEDERATED MODEL THAT UPDATES THE BLACKLIST AND SENARIO TO ALL TE         DISTRIBTIONS OF THE CHROME EXTENSION THROUGHOUT THE WORLD.
 
-Markdown is a lightweight markup language based on the formatting conventions
-that people naturally use in email.
-As [John Gruber] writes on the [Markdown site][df1]
+Kavach is a man in the middle AI agent that operates between the request generated from the user and the response that we get back from the server . Kavach does that using 
+a [Federated learning Model] that operates on [Artificial Intellignce][df1]
 
 > The overriding design goal for Markdown's
 > formatting syntax is to make it as readable
