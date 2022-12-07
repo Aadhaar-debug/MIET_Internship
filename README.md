@@ -3,20 +3,19 @@
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
-Kavach is a Browser controlled , mobile-ready, offline-storage compatible,
-AngularJS-powered HTML5 Markdown editor.
+KAVACH IS A SMART ARTIFICIAL INTELLIGTH AGENT THAT RESTRICTS THE MALICIOUS USER ACTIVITY / BLACK HAT ACTIVITIESON THE NETWORK OR THE BROWSER.
 
-- Type some Markdown on the left
-- See HTML in the right
-- ✨Magic ✨
+- MADE IN PYTOHN , JAVASCRIPT , JQUERY FOR LOGICS
+- FRONT END MADE IN HTML , CSS , JAVASCRIPT AND BOOTSTRAP
+- ARTIFICIAL INTELLIGENT COMPONENTS BUILT IN PYTHON , JAVASCRIPT (NEURAL NETWORK)
 
 ## Features
 
-- Import a HTML file and watch it magically convert to Markdown
-- Drag and drop images (requires your Dropbox account be linked)
-- Import and save files from GitHub, Dropbox, Google Drive and One Drive
-- Drag and drop markdown and HTML files into Dillinger
-- Export documents as Markdown, HTML and PDF
+- RECOMMENDATION MESSAGES FOR GENUINE SOFTWARES AND TOOLS 
+- ADVISORY MSSAGES FOR MALICIOUS AND UNETHICAL ACTIVIIES
+- PARSING CAPABILITIES OVER THE USER GENERATED REQUEST LIKE - URL , SUBDOMAIN ,       DOMAIN NAME , PROTOCOL , REQUEST CODE .
+- SAFETY FROM THE MALICIOUS LINKS AND THE MALFORMD URL LIKE PHISHING LINKS AND THE   DARK WEB PORTALS BY MAINTAINING A WHITELIST AND A BLACKLIST.
+- FEDERATED LEARNING MODEL THAT MAKE A VIRTUAL IMAGE OF THE INSIDENT SENARIO AND IT   THE MASTER FEDERATED MODEL THAT UPDATES THE BLACKLIST AND SENARIO TO ALL TE         DISTRIBTIONS OF THE CHROME EXTENSION THROUGHOUT THE WORLD.
 
 Markdown is a lightweight markup language based on the formatting conventions
 that people naturally use in email.
