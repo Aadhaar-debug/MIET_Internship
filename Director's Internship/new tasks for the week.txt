@@ -1,0 +1,12 @@
+1. More meaningful messages and make sure messaging works well. 
+
+2. Include all genuine netbanking links for major banks
+
+3. Explore sandboxie (open source) and redirect all downloads to a directory in sandboxie.
+
+4. No Red, Yellow classifications as of now till we decide on the logic for it.
+
+5. Only advisories for now. We will develop this solution for small offices wherein we can block certain operations.
+
+Future 
+6. Explore Virtual Assistant, Parental Controls (parse text or apply NLP), Ad blocker

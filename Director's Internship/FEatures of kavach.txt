@@ -1,0 +1,13 @@
+a.    AI-based advisory service to the users to help them avoid potentially dangerous web sources.
+
+b.    A globally coordinated dynamic federated-learning framework which continuously fine-tunes its responses to globally observed threats.
+
+c.    A Feedback mechanism which helps improve accuracy and effectiveness of advisories, issued by the AI-based agent on individual computers, against new emerging threats
+
+d.    A multi-dimensional framework protecting users against a multitude of online frauds and threats.
+
+e.    A framework providing access to genuine web sources for downloading commonly-used software/content.
+
+f.     An effective isolation framework for downloaded content based on sandboxing to mitigate the effect of malicious downloaded content. 
+
+g.    A non-invasive privacy preserving mechanism which secures individual users without retaining their personal details or browsing history.  
